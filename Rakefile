@@ -1,5 +1,6 @@
 #!/usr/bin/ruby
 
+task :default => :spec
 
 require 'spec/rake/spectask'
 
