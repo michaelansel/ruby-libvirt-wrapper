@@ -9,7 +9,7 @@ rescue LoadError
 end
 
 module Libvirt
-  dir = File.dirname(__FILE__)
+  dir = File.join(File.dirname(__FILE__),"Libvirt")
   require File.join(dir,'hypervisor.rb')
   require File.join(dir,'domain.rb')
   require File.join(dir,'network.rb')
